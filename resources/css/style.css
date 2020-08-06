@@ -1,0 +1,26 @@
+
+* { box-sizing: border-box; padding: 0; margin: 0; } body { font-family: 'Josefin Sans', sans-serif; } .navbar { font-size: 18px; background-image: linear-gradient(260deg, #2376ae 0%, #00dbe5 100%); border: 1px solid rgba(0, 0, 0, 0.2); padding-bottom: 10px; } .main-nav { list-style-type: none; display: none; background-image: linear-gradient(260deg, #2376ae 0%, #00dbe5 100%);} .nav-links, .logo { text-decoration: none; color: rgba(255, 255, 255, 0.7); } .main-nav li { text-align: center; margin: 15px auto;} .logo { display: inline-block; font-size: 50px; margin-top: 10px; margin-left: 20px; } .navbar-toggle { position: absolute; top: 10px; right: 20px; cursor: pointer; color: rgba(255, 255, 255, 0.8); font-size: 24px;} .active { display: block;}a:hover .box{background-color: #00fff4;}
+
+ .container{margin-top: 50px; position: relative; width:100%; height: 900px;} .container .box { display: block; text-align: center; position: relative; width: 90%; height: 250px; margin: 20px; padding: 10px 10px 10px 10px; border: solid 2px #299E98; border-radius: 10px; box-shadow: 5px 5px 20px #299E98; } .container a{text-decoration: none;} .granite h3{margin-top:10px;}.granite p{margin-top:30px;} .tiles h3{margin-top:10px;}.tiles p{margin-top:30px;} .sanitaryware h3{margin-top:10px;}.sanitaryware p{margin-top:30px;} 
+ 
+ .about img{width:90%; height:auto;} .about{text-align: center; margin-top: 40px;} .about-text{margin: 20px;} .head1 {font-size: 50px; font-weight: bold; color: #ff005b} .about-text p{margin-top: 10px; font-size: 25px; color: #005935}
+
+/* slider*/
+* {box-sizing: border-box} .mySlides {display: none} img {vertical-align: middle;} .slideshow-container { max-width: 1000px; position: relative; margin: 15px;} .prev, .next { cursor: pointer; position: absolute; top: 50%; width: auto; padding: 16px; margin-top: -22px; color: white; font-weight: bold; font-size: 18px; transition: 0.6s ease; border-radius: 0 3px 3px 0; user-select: none; } .next { right: 0; border-radius: 3px 0 0 3px; } .prev:hover, .next:hover { background-color: rgba(0,0,0,0.8); } .dot { cursor: pointer; height: 15px; width: 15px; margin: 0 2px; background-color: #bbb; border-radius: 50%; display: inline-block; transition: background-color 0.6s ease; } .active, .dot:hover { background-color: #717171; } .fade { -webkit-animation-name: fade; -webkit-animation-duration: 1.5s; animation-name: fade; animation-duration: 1.5s; }
+@-webkit-keyframes fade { from {opacity: .4} to {opacity: 1}}
+@keyframes fade { from {opacity: .4} to {opacity: 1}}
+
+
+/*footer*/
+ .footer-details{background-color: #00c6ff; width: 100%; height: auto; margin-top: 50px;} .quick-links ul{margin:15px; list-style-type:none;} .quick-links li{padding: 10px; font-size: 25px;} .footer-links{text-decoration: none;} .quick-links h2{padding: 10px; font-size: 30px;} .address h2{ padding:10px; font-size: 30px;} .address ul{margin: 15px; display:right; list-style-type:none;} .address li{padding: 10px; font-size: 20px;}
+
+/* WhatsApp floating*/
+.floating-wa{ width: 60px;	height:60px; display: flex; 		text-decoration: none; position: fixed; right: 20px; bottom: 20px; }
+ 
+@media screen and (min-width: 768px) { .navbar { display: flex; justify-content: space-between; padding-bottom: 0; height: 70px; align-items: center; } .main-nav { display: flex; margin-right: 30px; flex-direction: row; justify-content: flex-end; background-image:none;} .main-nav li { margin: 0; } .nav-links { margin-left: 40px; } .logo { margin-top: 0; } .navbar-toggle { display: none; } .logo:hover, .nav-links:hover { color: rgba(255, 255, 255, 1); } 
+
+.container{ position: relative; width:100%; height: 300px;} .container .box { width: 300px; height: 250px; float: left; margin: 10px; padding: 10px 10px 10px 15px; border: solid 1px #299E98; border-radius: 10px;} 
+
+.about ul{list-style-type: none; display:flex; flex-direction: row;margin:10px} .about li{width:50%;} .about-image{width:130%;} .about-text{border: text-align: right; margin-right: 10px; margin-left: 150px; font-size: 20px;}
+/* footer desktop */
+.address{ text-align: right; margin-top: -20%;}}

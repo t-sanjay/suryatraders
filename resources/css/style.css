@@ -54,7 +54,7 @@ body { font-family: 'Josefin Sans', sans-serif; }
  
 @media screen and (min-width: 768px) { .navbar { display: flex; justify-content: space-between; padding-bottom: 0; height: 70px; align-items: center; } .main-nav { display: flex; margin-right: 30px; flex-direction: row; justify-content: flex-end; background-image:none;} .main-nav li { margin: 0; } .nav-links { margin-left: 40px; } .logo { margin-top: 0; } .navbar-toggle { display: none; } .logo:hover, .nav-links:hover { color: rgba(255, 255, 255, 1); } 
 
-.container{padding:10px 10px 10px 10px; position: relative; width:100%; height: 300px;} .container .box { width: 100%; height: 250px; float: left; margin: 10px; padding: 10px 10px 10px 15px; border: solid 1px #299E98; border-radius: 10px;} 
+.container{padding:10px 10px 10px 10px; position: relative; width:100%; height: 300px;} .container .box { width: 30%; height: 250px; float: left; margin: 10px; margin-right: 10px; padding: 10px 10px 10px 15px; border: solid 1px #299E98; border-radius: 10px;} 
 
 .about ul{list-style-type: none; display:flex; flex-direction: row;margin:10px} .about li{width:50%;} .about-image{width:130%;} .about-text{border: text-align: right; margin-right: 10px; margin-left: 150px; font-size: 20px;}
 /* footer desktop */

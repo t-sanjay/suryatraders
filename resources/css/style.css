@@ -59,4 +59,4 @@ body { font-family: 'Josefin Sans', sans-serif; }
 .about ul{list-style-type: none; display:flex; flex-direction: row;margin:10px} .about li{width:50%;} .about-image{width:130%;} .about-text{border: text-align: right; margin-right: 10px; margin-left: 150px; font-size: 20px;}
 /* footer desktop */
 .address{ text-align: right; margin-top: -10%;}}
-.footer-details{height: 500px;}
+.footer-details{height: 400px;}

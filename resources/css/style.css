@@ -41,7 +41,7 @@ body { font-family: 'Josefin Sans', sans-serif; }
 
 /*footer*/
 .footer-details{background-color: #00c6ff; width: 100%; height: auto; margin-top: 50px;} 
-.quick-links ul{margin:15px; list-style-type:none;} 
+.quick-links ul{margin:15px; list-style-type:none; list-style-type: none;} 
 .quick-links li{padding: 10px; font-size: 25px;} 
 .footer-links{text-decoration: none;} 
 .quick-links h2{padding: 10px; font-size: 30px;} 
